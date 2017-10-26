@@ -1,17 +1,12 @@
 class ArticleController < ApplicationController
 
-	#"titulo"
-    #"contenido"
-    #"fecha"
-    #"estado"
-    #"category_id"
    
 def index
-    @arti=Article.where("estado != 0")
+    @arti=Article.where("estado != 0 ")
   end
 
   def new
-    @title = "Paises"    
+    @title = "hsjdhfgsdhg"    
     @arti= Article.new
   end
 

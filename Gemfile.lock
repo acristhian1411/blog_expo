@@ -51,9 +51,14 @@ GEM
     arbre (1.1.1)
       activesupport (>= 3.0.0)
     arel (6.0.4)
+    autoprefixer-rails (7.1.4)
+      execjs
     bcrypt (3.1.11)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
+    bootstrap-sass (3.3.7)
+      autoprefixer-rails (>= 5.2.1)
+      sass (>= 3.3.4)
     builder (3.2.3)
     byebug (9.1.0)
     cancan (1.6.10)
@@ -222,6 +227,8 @@ PLATFORMS
 
 DEPENDENCIES
   activeadmin
+  autoprefixer-rails
+  bootstrap-sass
   byebug
   cancan
   coffee-rails (~> 4.1.0)

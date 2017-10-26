@@ -15,6 +15,10 @@ gem 'coffee-rails', '~> 4.1.0'
 # gem 'therubyracer', platforms: :ruby
 gem 'activeadmin'
 
+gem 'bootstrap-sass'
+gem 'autoprefixer-rails'
+
+
 # Plus integrations with:
 gem 'devise'
 gem 'cancan' # or cancancan
